@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+    <title>Amity University Stationery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F0F8FF; /* Very light blue for the background */
+        }
+        .text-amity-blue {
+            color: #000080; /* Darker blue for headings */
+        }
+        .bg-amity-blue {
+            background-color: #000080; /* Darker blue for primary elements */
+        }
+        .text-amity-yellow {
+            color: #FFD700; /* Gold/Yellow for accents */
+        }
+        .bg-amity-yellow {
+            background-color: #FFD700; /* Gold/Yellow for accents */
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+    <nav class="bg-amity-blue p-4 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-amity-yellow text-2xl font-bold">Amity Store</a>
+            <div class="space-x-4">
+                <a href="#" class="text-white hover:text-amity-yellow transition duration-200">Home</a>
+                <a href="#" class="text-white hover:text-amity-yellow transition duration-200">Shop</a>
+                <a href="#" class="text-white hover:text-amity-yellow transition duration-200">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16 text-center shadow-lg">
+        <div class="container mx-auto">
+            <h1 class="text-4xl font-extrabold mb-2">Amity University Stationery</h1>
+            <p class="text-lg">Explore our collection of Notebooks, Pens, Planners, and more!</p>
+        </div>
+    </header>
+
+    <main class="container mx-auto my-12 p-4 flex-grow">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+            <div class="bg-white rounded-xl shadow-lg p-6 text-center transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
+                <img src="https://placehold.co/300x200/000080/FFD700?text=Amity+Notebook" alt="Amity Notebook" class="mx-auto mb-4 rounded-lg">
+                <h3 class="text-xl font-semibold text-amity-blue mb-2">Amity Branded Notebook</h3>
+                <p class="text-gray-700 mb-4 font-bold text-lg">₹249</p>
+                <button class="bg-blue-700 hover:bg-blue-800 text-yellow-300 font-bold py-2 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition duration-300 ease-in-out">Add to Cart</button>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg p-6 text-center transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
+                <img src="https://placehold.co/300x200/000080/FFD700?text=Amity+Pen" alt="Amity Pen" class="mx-auto mb-4 rounded-lg">
+                <h3 class="text-xl font-semibold text-amity-blue mb-2">Amity Logo Pen Set</h3>
+                <p class="text-gray-700 mb-4 font-bold text-lg">₹199</p>
+                <button class="bg-blue-700 hover:bg-blue-800 text-yellow-300 font-bold py-2 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition duration-300 ease-in-out">Add to Cart</button>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg p-6 text-center transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
+                <img src="https://placehold.co/300x200/000080/FFD700?text=Amity+Planner" alt="Amity Planner" class="mx-auto mb-4 rounded-lg">
+                <h3 class="text-xl font-semibold text-amity-blue mb-2">Amity Academic Planner</h3>
+                <p class="text-gray-700 mb-4 font-bold text-lg">₹399</p>
+                <button class="bg-blue-700 hover:bg-blue-800 text-yellow-300 font-bold py-2 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition duration-300 ease-in-out">Add to Cart</button>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg p-6 text-center transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
+                <img src="https://placehold.co/300x200/000080/FFD700?text=Amity+Highlighters" alt="Amity Highlighters" class="mx-auto mb-4 rounded-lg">
+                <h3 class="text-xl font-semibold text-amity-blue mb-2">Amity Highlighter Set</h3>
+                <p class="text-gray-700 mb-4 font-bold text-lg">₹149</p>
+                <button class="bg-blue-700 hover:bg-blue-800 text-yellow-300 font-bold py-2 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition duration-300 ease-in-out">Add to Cart</button>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg p-6 text-center transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
+                <img src="https://placehold.co/300x200/000080/FFD700?text=Amity+Sticky+Notes" alt="Amity Sticky Notes" class="mx-auto mb-4 rounded-lg">
+                <h3 class="text-xl font-semibold text-amity-blue mb-2">Amity Sticky Notes Pad</h3>
+                <p class="text-gray-700 mb-4 font-bold text-lg">₹99</p>
+                <button class="bg-blue-700 hover:bg-blue-800 text-yellow-300 font-bold py-2 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition duration-300 ease-in-out">Add to Cart</button>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg p-6 text-center transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
+                <img src="https://placehold.co/300x200/000080/FFD700?text=Amity+Folder" alt="Amity Folder" class="mx-auto mb-4 rounded-lg">
+                <h3 class="text-xl font-semibold text-amity-blue mb-2">Amity Document Folder</h3>
+                <p class="text-gray-700 mb-4 font-bold text-lg">₹179</p>
+                <button class="bg-blue-700 hover:bg-blue-800 text-yellow-300 font-bold py-2 px-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition duration-300 ease-in-out">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-amity-blue text-white py-8 mt-auto">
+        <div class="container mx-auto text-center text-sm">
+            <p>&copy; 2025 Amity University Bengaluru Merchandise Store.</p>
+            <a href="#" class="hover:text-amity-yellow transition duration-200 mt-2 inline-block">Contact Us</a>
+        </div>
+    </footer>
+</body>
+</html>
